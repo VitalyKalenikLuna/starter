@@ -23,7 +23,7 @@ jobs:
           java-version: 8
 
       - name: Run Build
-        uses: eskatos/gradle-command-action@v1
+#        uses: eskatos/gradle-command-action@v1
         run: ./gradlew :app:assembleDebug > buildResult.txt
 #        with:
 #          wrapper-cache-enabled: true
