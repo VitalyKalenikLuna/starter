@@ -40,6 +40,8 @@ class MainActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
 
+
+
     val diceArray: Array<Int> = arrayOf(
         R.drawable.ball1,
         R.drawable.ball2,
