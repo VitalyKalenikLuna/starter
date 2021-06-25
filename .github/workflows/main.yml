@@ -25,6 +25,6 @@ jobs:
       - name: Run Build
         uses: eskatos/gradle-command-action@v1
         with:
-          arguments: :app:assembleDebug
+          arguments: :app:assembleDebug > buildResult.txt
           wrapper-cache-enabled: true
           dependencies-cache-enabled: true
