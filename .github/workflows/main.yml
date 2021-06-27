@@ -25,7 +25,6 @@ jobs:
       - name: Run Build
         id: run-build
         uses: eskatos/gradle-command-action@v1
-        run: echo "::set-output name=mix-test::$(cat test.log)"
         with:
           wrapper-cache-enabled: true
           dependencies-cache-enabled: true
